@@ -13,4 +13,5 @@ def demo(data):
 def view():
     return render_template('view.html')
 if __name__=='__main__':
-    FAI.run(debug=True,host='192.168.43.95',port=5001)
+    FAI.run(debug=True)
+    # FAI.run(debug=True,host='192.168.43.95',port=5001)    #For Run Own Ip
